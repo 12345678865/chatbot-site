@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My AI Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My AI Chatbot</h1>
+  </header>
+
+  <main>
+    <p>Ask me anything! I’m your friendly AI assistant powered by Dialogflow.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 My AI Company
+  </footer>
+
+  <!-- Dialogflow Chatbot Embed Code -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="AI Helper"
+    agent-id="d31c6560-569d-4ac4-8fb1-40fb2d54c9b4"
+    language-code="en"
+  ></df-messenger>
+
+</body>
+</html>
